@@ -2,8 +2,8 @@ import { BlockTag, TransactionReceipt, TransactionRequest } from '@ethersproject
 import { Networkish } from '@ethersproject/networks'
 import { BaseProvider } from '@ethersproject/providers'
 import { ConnectionInfo, fetchJson } from '@ethersproject/web'
-import { BigNumber, ethers, providers, Signer } from 'ethers'
-import { id, keccak256 } from 'ethers/lib/utils'
+import { BigNumber, ethers, providers, Signer } from 'ethers5'
+import { id, keccak256 } from 'ethers5/lib/utils'
 import { serialize } from '@ethersproject/transactions'
 
 export const DEFAULT_FLASHBOTS_RELAY = 'https://relay.flashbots.net'
